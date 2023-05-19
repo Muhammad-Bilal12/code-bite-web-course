@@ -2,5 +2,10 @@
 
 ## My First Demo website Practice
 
+### Desktop or Laptop design
+
 ![Demo Website Design](./demo.png)
-![Responsive Website Design](./responsive.png)
+
+### Mobile Responsive design
+
+<img width='300px' src="./responsive.png">
