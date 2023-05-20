@@ -1,0 +1,43 @@
+.flex {
+  display: flex;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+/* Button  */
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary,
+.btn-secondary:hover {
+  color: var(--dark);
+  background-color: var(--primary);
+}
+
+.btn-secondary,
+.btn-primary:hover {
+  border-color: var(--primary);
+  background-color: transparent;
+  color: var(--primary);
+}

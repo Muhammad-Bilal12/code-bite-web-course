@@ -1,0 +1,97 @@
+/* Embeded Font Family Poppins */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;600;700&family=Public+Sans:wght@300;400;700&family=Roboto:wght@400;700&display=swap");
+
+/* Import Utility css */
+@import "./utils.css";
+
+/* Define variable for color pallete */
+
+:root {
+  --primary: #3dcfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+}
+
+/* CSS Default */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased; /* For smooth font*/
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: var(--dark);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 85%, 0 100%);
+}
+
+.container {
+  width: 1152px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header nav .left a {
+  color: var(--pure);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all.3s ease-in-out;
+}
+
+header nav .left a:hover {
+  color: var(--primary);
+}
+
+header nav {
+  padding: 2rem 0;
+}
+
+.branding {
+  margin-right: 3rem;
+}
+
+/* Hero Section */
+.hero {
+  padding: 3rem 0;
+}
+/* Left side */
+.hero .left img {
+  width: 400px;
+}
+
+/* right side */
+
+.hero .right {
+  margin-top: -7rem;
+  color: var(--pure);
+}
+
+.hero .right h6 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.hero .right h1 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+.hero .right h1 span {
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+.hero .right p {
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
