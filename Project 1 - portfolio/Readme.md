@@ -2,7 +2,7 @@
 
 ## Personal Portfolio
 
-<a href="#">Click here to check out my website</a>
+<a href="https://muhammadbilal254.github.io/personal_portfolio_1/">Click here to check out my website</a>
 
 <img src="./desktop_project.jpg">
 
