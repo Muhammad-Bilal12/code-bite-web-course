@@ -1,0 +1,9 @@
+@media screen and (max-width: 1024px) {
+  header #main-nav {
+    display: none;
+  }
+
+  .hemberger {
+    display: block;
+  }
+}

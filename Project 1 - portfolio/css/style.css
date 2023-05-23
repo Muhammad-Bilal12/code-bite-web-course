@@ -28,7 +28,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
 }
 section {
   padding: 6rem 0;
@@ -483,4 +482,66 @@ footer .footer-social img {
 footer .copyright {
   margin-top: 3rem;
   color: var(--ternary);
+}
+
+/* For Nav Icon */
+.site-main-wrapper {
+  position: relative;
+}
+
+.hemberger {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  z-index: 11;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: none;
+}
+
+.hemberger img {
+  width: 30px;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--light);
+  z-index: 1001;
+  width: 100%;
+  padding: 2rem;
+  height: 100%;
+  padding-top: 5rem;
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+
+.open {
+  transform: translateX(0);
+}
+.times {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.times img {
+  width: 30px;
+}
+
+.mobile-nav ul {
+  list-style: none;
+}
+
+.mobile-nav ul li a {
+  font-size: 2rem;
+  color: var(--dark);
+  text-decoration: none;
 }
