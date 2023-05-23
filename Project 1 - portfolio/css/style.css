@@ -542,7 +542,9 @@ footer .copyright {
 }
 
 .responsive-logo {
+  display: none;
   position: absolute;
+
   top: 30px;
   left: 30px;
   z-index: 10;
