@@ -105,10 +105,6 @@ header nav {
 
 /* About me section */
 
-section.about {
-  padding: 6rem 0;
-}
-
 section.about .about-me-img {
   height: 450px;
 }
@@ -148,7 +144,6 @@ section.about .social a {
 
 section.services {
   background-color: var(--light);
-  padding: 6rem 0;
 }
 
 .section-heading {
@@ -507,13 +502,13 @@ footer .copyright {
 
 .mobile-nav {
   position: fixed;
-  top: 0;
+  top: 20;
   left: 0;
   background: var(--light);
   z-index: 1001;
   width: 100%;
   padding: 2rem;
-  height: 100%;
+  height: 80%;
   padding-top: 5rem;
   transform: translateX(-100%);
   transition: all 0.5s ease-in-out;
@@ -544,4 +539,11 @@ footer .copyright {
   font-size: 2rem;
   color: var(--dark);
   text-decoration: none;
+}
+
+.responsive-logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 10;
 }
