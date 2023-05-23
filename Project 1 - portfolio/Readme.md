@@ -12,10 +12,8 @@
 
 ## Service we used
 
-HTML For structure website
-CSS for Design
-JS for Functionality
-Slick.js library used for client animation
+HTML For structure website<br>
+CSS for Design<br>
+JS for Functionality<br>
+Slick.js library used for client animation.
 <a href="https://kenwheeler.github.io/slick/">Slick JS</a>
-
-
