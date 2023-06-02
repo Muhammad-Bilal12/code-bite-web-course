@@ -72,19 +72,20 @@ These are the most commonly used operators in JavaScript. Understanding how to u
 // Assignment Operator
 
 // Addition Assignment Examples
-let x = 10;
-x += 5;
-console.log(x);
-let text = "Hello";
-text += " World";
-console.log(text); //real example
+
+// let x = 10;
+// x += 5;
+// console.log(x);
+// let text = "Hello";
+// text += " World";
+// console.log(text); //real example
 
 // Comparision Operator
 
-console.log(18 == 19); //equal
-console.log(18 != 19); // not equal
+// console.log(18 == 19); //equal
+// console.log(18 != 19); // not equal
 
-console.log(18 === "18"); // type or value checker
-console.log(18 !== "18"); // type or value checker
+// console.log(18 === "18"); // type or value checker
+// console.log(18 !== "18"); // type or value checker
 
-console.log(!true); // not operator
+// console.log(!true); // not operator
