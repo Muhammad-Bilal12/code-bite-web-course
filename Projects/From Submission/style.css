@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --primary-color: #bdc3c7;
+  --background-color: #777;
+  --success-color: green;
+  --error-color: red;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-control label {
+  display: block;
+  color: #616161;
+}
+
+.form-control input {
+  width: 100%;
+  position: relative;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+  margin-bottom: 5px;
+}
+.form-control input:focus {
+  outline: none;
+  border-color: var(--background-color);
+}
+
+.form-control small {
+  position: relative;
+  top: -5px;
+  visibility: hidden;
+}
+
+.form button {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  background: blue;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.form button:hover {
+  background: linear-gradient(to right, #1e88e5, #29b6f6);
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: red;
+}
+
+.form-control.error small::before {
+  content: "*";
+  color: red;
+}
